@@ -5,11 +5,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #e10dfd;
+  --bs-blue: #dc3545;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
-  --bs-red: #dc3545;
+  --bs-red: #197fde;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
@@ -28,20 +28,20 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #e10dfd;
-  --bs-secondary: #6c757d;
+  --bs-primary: #dc3545;
+  --bs-secondary: #ced4da;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
+  --bs-danger: #197fde;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 225, 13, 253;
-  --bs-secondary-rgb: 108, 117, 125;
+  --bs-primary-rgb: 220, 53, 69;
+  --bs-secondary-rgb: 206, 212, 218;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
-  --bs-danger-rgb: 220, 53, 69;
+  --bs-danger-rgb: 25, 127, 222;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
@@ -68,8 +68,8 @@
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
   --bs-heading-color: ;
-  --bs-link-color: #e10dfd;
-  --bs-link-hover-color: #b40aca;
+  --bs-link-color: #dc3545;
+  --bs-link-hover-color: #b02a37;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }

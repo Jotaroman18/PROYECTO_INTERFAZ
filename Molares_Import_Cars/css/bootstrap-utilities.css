@@ -11,13 +11,13 @@
 }
 
 .text-bg-primary {
-  color: #000 !important;
-  background-color: RGBA(225, 13, 253, var(--bs-bg-opacity, 1)) !important;
+  color: #fff !important;
+  background-color: RGBA(220, 53, 69, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-secondary {
-  color: #fff !important;
-  background-color: RGBA(108, 117, 125, var(--bs-bg-opacity, 1)) !important;
+  color: #000 !important;
+  background-color: RGBA(206, 212, 218, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-success {
@@ -36,8 +36,8 @@
 }
 
 .text-bg-danger {
-  color: #fff !important;
-  background-color: RGBA(220, 53, 69, var(--bs-bg-opacity, 1)) !important;
+  color: #000 !important;
+  background-color: RGBA(25, 127, 222, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-light {
@@ -51,17 +51,17 @@
 }
 
 .link-primary {
-  color: #e10dfd !important;
+  color: #dc3545 !important;
 }
 .link-primary:hover, .link-primary:focus {
-  color: #e73dfd !important;
+  color: #b02a37 !important;
 }
 
 .link-secondary {
-  color: #6c757d !important;
+  color: #ced4da !important;
 }
 .link-secondary:hover, .link-secondary:focus {
-  color: #565e64 !important;
+  color: #d8dde1 !important;
 }
 
 .link-success {
@@ -86,10 +86,10 @@
 }
 
 .link-danger {
-  color: #dc3545 !important;
+  color: #197fde !important;
 }
 .link-danger:hover, .link-danger:focus {
-  color: #b02a37 !important;
+  color: #4799e5 !important;
 }
 
 .link-light {
