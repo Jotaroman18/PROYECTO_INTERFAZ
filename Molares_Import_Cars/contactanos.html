@@ -19,7 +19,7 @@
     <nav class="navbar navbar-expand-md bg-dark sticky-top">
 
         <div class="container-fluid ">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="img/logo.png" alt="" width="80" height="50">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -94,49 +94,51 @@
         </button>
     </div>
 
+<!-- FORMULARIO -->
 
-    <!-- SOBRE NOSOTROS -->
-
-    <div class="d-flex justify-content-center mt-4 fw-bold">
-        <p class="fs-1">Sobre nosotros</p>
-    </div>
-
-    <section class="mt-4 m-auto">
-        <div class="container">
-            <div class=" mt-5 mt-md-0 align-items-center d-flex text-center">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ut dolores doloremque iste
-                    quo. Corrupti sapiente aperiam laborum vitae. Aliquam fugiat fuga quod labore eligendi,
-                    assumenda voluptates excepturi facere? Deserunt?
-                    Ratione debitis eos rerum animi, quidem modi, minus ut, aspernatur aperiam labore tenetur!
-                    Aspernatur assumenda dolore deserunt doloremque recusandae placeat corporis laborum, velit
-                    quia doloribus, omnis eos, nemo sunt possimus.
-                    Necessitatibus officiis porro cumque magni soluta at voluptatibus non in! Sequi sit
-                    praesentium quidem provident aspernatur? Facilis enim repellendus, tempora, dicta nam
-                    temporibus, nisi labore voluptates nostrum optio laborum culpa!</p>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- VIDEO TOUR -->
-
-    <div class="d-flex justify-content-center mt-4 fw-bold">
-        <p class="fs-1">Tour por nuestras instalaciones</p>
-    </div>
+<div class="d-flex justify-content-center mt-4 fw-bold">
+    <p class="fs-1">Contáctanos</p>
+</div>
 
 <section class="mt-4 m-auto">
     <div class="container">
-        <div class=" mt-5 mt-md-0 align-items-center d-flex">
-            <div class=" ratio ratio-4x3">
-                <iframe width="300" height="150" src="https://www.youtube.com/embed/YiA8oys85YE"
-                    title="YouTube video player" frameborder="0"
-                    allow=" autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
+        <div class=" mt-5 mt-md-0 align-items-center d-flex text-center">
+            <p>Puedes contactar con nostros en cualquier momento para cualquier consulta relacionada con la empresa o con
+                algún vehículo en particular. También puedes dejarnos tu curriculum por si deseas trabajar con nosotros.
+            </p>
         </div>
+
+
 
     </div>
 </section>
+
+
+<div class="row justify-content-center my-3 gap-4">
+    <div class="col-sm-6 col-md-4">
+        <form action="#">
+            <label for="name" class="form-label">Nombre y apellidos:</label>
+            <input type="text" name="name" id="name" class="form-control for" required>
+
+            <label for="correo" class="form-label">Email:</label>
+            <input type="email" name="correo" id="correo" class="form-control" required>
+
+            <label for="asunto" class="form-label">Asunto:</label>
+            <input type="text" name="asunto" id="asunto" class="form-control" required>
+
+            <label for="consulta" class="form-label">Mensaje:</label>
+            <textarea name="consulta" id="consulta" class="form-control" required></textarea>
+
+            
+                <input type="submit" value="Enviar" class="mt-3 w-100 btn btn-success">
+            
+        </form>
+    </div>
+    
+</div>
+
+
+
 
 
 <!-- FOOTER -->
