@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
         integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -16,83 +16,79 @@
 <!-- BARRA DE NAVEGACION -->
 
 
-    <nav class="navbar navbar-expand-md bg-dark sticky-top">
+<nav class="navbar navbar-expand-md bg-dark sticky-top">
 
-        <div class="container-fluid ">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/logo.png" alt="" width="80" height="50">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="stock.html">Stock</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="contactanos.html">Contáctanos</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Ubicaciones
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Sevilla</a></li>
-                            <li><a class="dropdown-item" href="#">Málaga</a></li>
-                            <li><a class="dropdown-item" href="#">Cádiz</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Realizar búsqueda"
-                        aria-label="búsqueda">
-                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-
-    <!-- CARRUSEL -->
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/carrusel2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block text-black">
-                    <h5>Bienvenido a Molares Import Cars</h5>
-                    <p>Venta de coches de segunda mano y ocasión.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/carrusel1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="img/carrusel3.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+    <div class="container-fluid ">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" alt="" width="80" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="stock.html">Stock</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="contactanos.html">Contáctanos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Ubicaciones
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Sevilla</a></li>
+                        <li><a class="dropdown-item" href="#">Málaga</a></li>
+                        <li><a class="dropdown-item" href="#">Cádiz</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Realizar búsqueda" aria-label="búsqueda">
+                <button class="btn btn-outline-primary" type="submit">Buscar</button>
+            </form>
+        </div>
     </div>
+</nav>
+
+<!-- CARRUSEL -->
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/carrusel2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-black">
+                <h5>Bienvenido a Molares Import Cars</h5>
+                <p>Venta de coches de segunda mano y ocasión.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/carrusel1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/carrusel3.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
 <!-- FORMULARIO -->
 
@@ -103,7 +99,8 @@
 <section class="mt-4 m-auto">
     <div class="container">
         <div class=" mt-5 mt-md-0 align-items-center d-flex text-center">
-            <p>Puedes contactar con nostros en cualquier momento para cualquier consulta relacionada con la empresa o con
+            <p>Puedes contactar con nostros en cualquier momento para cualquier consulta relacionada con la empresa o
+                con
                 algún vehículo en particular. También puedes dejarnos tu curriculum por si deseas trabajar con nosotros.
             </p>
         </div>
@@ -112,26 +109,49 @@
 
 
 <div class="row justify-content-center my-3 gap-4">
-    <div class="col-sm-6 col-md-4">
-        <form action="#">
+
+    <form action="#" class="col-sm-6 col-md-4 needs-validation" novalidate>
+
+     
+        <div class="form-floating mb-3 position-relative">
+            <input type="text" name="name" id="name" class="form-control" placeholder=" " required>
             <label for="name" class="form-label">Nombre y apellidos:</label>
-            <input type="text" name="name" id="name" class="form-control for" required>
+            <div class="invalid-tooltip">Su nombre no es válido</div>
+            <div class="valid-tooltip">Su nombre es válido</div>
 
+        </div>
+        <div class="form-floating mb-3 position-relative">
+            <input type="email" name="correo" id="correo" class="form-control" placeholder=" " required>
             <label for="correo" class="form-label">Email:</label>
-            <input type="email" name="correo" id="correo" class="form-control" required>
-
+            <div class="invalid-tooltip">Su email no es válido</div>
+            <div class="valid-tooltip">Su email es válido</div>
+        </div>
+        <div class="form-floating mb-3 position-relative">
+            <input type="text" name="asunto" id="asunto" class="form-control" placeholder=" " required>
             <label for="asunto" class="form-label">Asunto:</label>
-            <input type="text" name="asunto" id="asunto" class="form-control" required>
-
+            
+            
+        </div>
+        <div class="form-floating mb-3 position-relative">
+            <textarea name="consulta" id="consulta" class="form-control" placeholder=" " required></textarea>
             <label for="consulta" class="form-label">Mensaje:</label>
-            <textarea name="consulta" id="consulta" class="form-control" required></textarea>
+            
+            
+        </div>
 
-            
-                <input type="submit" value="Enviar" class="mt-3 w-100 btn btn-success">
-            
-        </form>
-    </div>
-    
+
+
+
+
+
+
+
+
+        <input type="submit" value="Enviar" class="mt-3 w-100 btn btn-success">
+
+    </form>
+
+
 </div>
 
 
@@ -151,19 +171,40 @@
         </a>
 
         <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
-            <li class="ms-3"><a class="text-muted" href="https://instagram.com/"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
-            <li class="ms-3"><a class="text-muted" href="https://twitter.com/"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
-            <li class="ms-3"><a class="text-muted" href="https://facebook.com/"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://instagram.com/"><i
+                        class="fa-brands fa-instagram fa-2x"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://twitter.com/"><i
+                        class="fa-brands fa-twitter fa-2x"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://facebook.com/"><i
+                        class="fa-brands fa-facebook fa-2x"></i></a></li>
         </ul>
     </footer>
 </div>
 
 
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (() => {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+        })
+    })()
+</script>
 
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script> -->
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
